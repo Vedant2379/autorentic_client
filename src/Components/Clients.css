@@ -1,0 +1,85 @@
+
+.container {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+h6{
+    position: relative;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+}
+
+.item:hover {
+    flex: 7;
+}
+
+.item-1 {
+    background-image: url("../Assets/Image/pexels1.jpg")
+}
+
+.item-2 {
+    background-image: url("../Assets/Image/pexels2.jpg");
+}
+
+.item-3 {
+    background-image: url("../Assets/Image/pexels3.jpg");
+}
+
+.item-4 {
+    background-image: url("../Assets/Image/pexels4.jpg");
+}
+
+.item-5 {
+    background-image: url("../Assets/Image/pexels5.jpg");
+}
+
+.ChooseIcon_Div{
+    align-self: center;
+    background-color: #e9e8ed;
+    border-radius: 15px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+.ChooseIcon_Div:hover{
+    background-color: #ffc600;
+}
+
+.Chooose_IMage{
+    width: 65px;
+    height: 65px;
+   
+    
+}
+
+.ChooseIcon_Div h2{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 20px;
+}

@@ -1,0 +1,45 @@
+
+
+.Car-Nav {
+    background-color:  #080808;
+    height: 65px;
+}
+
+.CarLOgo{
+    width:30%;
+    height: 30%;
+    justify-content: center;
+    align-self: center;
+
+    
+
+}
+
+
+.clink {
+    margin-left: 18px;
+    font-size: medium;
+    color: #fff;
+    padding: 4px;
+    text-decoration: none;
+    font-family: "Poppins";
+
+}
+
+.clink:hover {
+    display: flex;
+    cursor: pointer;
+    background: #ffc600;
+    text-decoration: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #000;
+
+}
+
+.Brand_Name{
+    font-family: 'Poppins';
+    font-size: 22px;
+   
+
+}

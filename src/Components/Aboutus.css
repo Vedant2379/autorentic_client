@@ -1,0 +1,181 @@
+/* .About-title{
+    color: #222;
+    font-size: 2.5rem;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.About-titles{
+    color: #222;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 8%;
+
+}
+
+
+.About-img{
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+
+}
+
+.About-background {
+    position: relative;
+    background-size: cover;
+    padding: 120px 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 8%;
+  }
+  
+  .About-background p {
+    position: relative;
+    margin: 10px 0 0;
+    color:#fff ;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.About-quote span{
+    
+    color: #fff;
+    font-size: 1.215rem;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+  .About-quote {
+    background: url(./img/asdfq.jpeg) center no-repeat fixed;
+  }
+  
+  .About-quote p {
+    margin-top: 0;
+    font-size: 36px;
+  }
+  
+  
+  .About-overlay:before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .Our-main1{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+  }
+
+  .Our-div1{
+      position: relative;
+      width: 100%;
+      height: 210px;
+      display: block;
+      min-height: 1px;
+      border:2px solid rgb(239 68 68);
+      border-radius: 30px;
+      margin-top: 4%;
+      padding: 2%;
+
+  }
+  
+
+  .Our-main2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.Our-div2{
+    position: relative;
+    width: 100%;
+    height: 210px;
+    display: block;
+    min-height: 1px;
+    border:2px solid rgb(51 65 85);
+    border-radius: 30px;
+    margin-top: 4%;
+    padding: 2%;
+
+}
+
+.Our-div1 h1{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.Our-div1 p{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    
+}
+
+.Our-div2 h1{
+
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.Our-div2 p{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    
+} */
+
+.About_Details_Container h3 {
+  font-family: 'Poppins';
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.About_Details_Container h4 {
+  font-family: 'Poppins';
+  font-size: 20px;
+  color: #7c7d82;
+
+}
+
+.About_Details_Container p {
+  font-family: 'Poppins';
+  font-size: 17px;
+  line-height: 33px;
+
+}
+
+.About_Second_Div{
+  padding-top: 20px;
+}
+
+.About_Second_Div h4 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 23px;
+  text-align: center;
+
+
+
+}
+
+.About_Second_Div h1 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+}
+
+

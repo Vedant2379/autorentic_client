@@ -1,0 +1,23 @@
+.Card{
+    width: 17rem;
+    margin: 5%;
+}
+
+
+.VehicleList-Container{
+    /* display: flex; */
+    margin-top: 10%;
+}
+
+.Carimage{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.Modelinfo{
+    font-size: larger;
+    position: relative;
+
+      
+}

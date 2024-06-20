@@ -1,0 +1,178 @@
+.Fleet-title {
+    color: #222;
+    font-size: 2.5rem;
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+
+
+.Fleet-Container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    padding: 10px;
+    margin-bottom: 2%;
+
+
+}
+
+
+.Fleet-main {
+
+    flex: 0 1 auto;
+    display: block;
+    margin: 0 5px 8px;
+    width: 230px;
+    height: 170px;
+    background-color: #E5E8E8;
+    position: relative;
+    padding: 10px;
+    z-index: 9;
+    border-radius: 15px;
+}
+
+.Fleet-main:hover {
+    background-color: #ffc600;
+    transition: 0.3s;
+}
+
+.Fleet-image {
+    max-width: 100%;
+    height: auto;
+    transition: transform .3s;
+
+}
+
+
+.Fleet-image:hover {
+
+    transform: scale(1.1);
+}
+
+.Fleet-main span {
+
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4d4d4d;
+    font-size: 18px;
+    display: block;
+    margin-top: -8%;
+}
+
+.Fleet-main a {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -12%;
+
+}
+
+
+/* 77777777777777777777777777777777777 */
+
+.section-background {
+    position: relative;
+    background-size: cover;
+    padding: 150px 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 8%;
+    cursor: pointer;
+}
+
+.section-background p {
+    position: relative;
+    margin: 10px 0 0;
+    color: #ffffff;
+}
+
+
+
+.section-quote {
+    background: url('../Assets/Image/pexels-mike-b-3729464.jpg') center no-repeat fixed;
+}
+
+.section-quote p {
+    margin-top: 0;
+    font-size: 36px;
+    font-family: "Poppins";
+
+}
+
+
+.background-overlay:before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+/* 888888888888888888888888888888888888 */
+
+.aboutcontainer {
+    margin-top: 4%;
+    margin-left: 5%;
+
+}
+
+.timg {
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+
+}
+
+.t-box {
+    background: white none repeat scroll 0 0;
+    color: #000;
+    padding: 0 0 22px;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 38px;
+
+
+
+
+
+}
+
+.Code-Cards {
+    border-radius: 40px;
+    ;
+    box-shadow: 0px 2px 25px rgba(234, 84, 84, 0.5);
+
+
+}
+
+
+
+
+.Date-Col {
+    display: flex;
+    margin-top: 5%;
+}
+
+.Date-Col h1 {
+    color: #222;
+    font-size: 1.425rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.Date-Col div {
+    display: flex;
+    margin-left: 10%;
+
+}
